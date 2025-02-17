@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stall Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #9e9999;
+        }
+        .h3 {
+            font-size: 24px;
+            color: #ff6600
+        }
+
+        .header {
+            background-color: #000000;
+            text-align: center;
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.89);
+            padding: 10px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .menu-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        details {
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        summary {
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #ff6600;
+            padding: 5px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item img {
+            width: 60px;
+            height: 60px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .menu-text {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>YUVATRANG-2K25</h1>
+    </header>
+    <div class="menu-container">
+        <details>
+            <summary>🍞 Sandwich Menu</summary>
+            <div class="menu-item">
+                <img src="chisd.jpg" alt="Chicken Sandwich">
+                <span class="menu-text">Chicken Sandwich</span>
+                <span class="price">80/-</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="alsd.jpg" alt="Aloo Sandwich">
+                <span class="menu-text">Aloo Sandwich</span>
+                <span class="price">60/-</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="vgsd.jpg" alt="Veggie Delight">
+                <span class="menu-text">Veggie Delight</span>
+                <span class="price">50/-</span>
+            </div>
+        </details>
+
+        <details>
+            <summary>🍕 Pizza Menu</summary>
+            <h3>Non-Veg Pizza</h3><br>
+            <div class="menu-item">
+                <img src="chickenpizza.jpg" alt="Chicken Pizza">
+                <span class="menu-text">Chicken Pizza</span>
+                <span class="price">130/-</span>
+            </div>
+            <div class="menu-item">
+                <img src="Nonvgol.jpg" alt="Non-Veg Overloded">
+                <span class="menu-text">Non-Veg Overloded</span>
+                <span class="price">140/-</span>
+            </div>
+            <h3>Veg-Pizza</h3><br>
+            <div class="menu-item">
+                <img src="vegan.jpg" alt="Vegan-Pizza">
+                <span class="menu-text">Vegan</span>
+                <span class="price">100/-</span>
+            </div>
+            <div class="menu-item">
+                <img src="paneer.jpeg" alt="Paneer Pizza">
+                <span class="menu-text">Paneer</span>
+                <span class="price">120/-</span>
+            </div>
+            <div class="menu-item">
+                <img src="Babycorn.jpeg" alt="Babycorn Pizza">
+                <span class="menu-text">Baby Corn</span>
+                <span class="price">130/-</span>
+            </div>
+            <div class="menu-item">
+                <img src="vgpizza.jpg" alt="Veggie Pizza">
+                <span class="menu-text">Veg-Overloaded</span>
+                <span class="price">140/-</span>
+            </div>
+        </details>
+
+    </div>
+</body>
+
+</html>
